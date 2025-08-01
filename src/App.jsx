@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { getCurrentUser } from "./lib/axios.js";
 import { useDispatch } from "react-redux";
 import { login as authLogin } from "./store/authSlice.js";
-import Layout from "./components/Layout"; // Import the Layout component
+import Layout from "./components/layout.jsx"; 
 import { CreateBookPage } from "./pages/createBook.jsx";
 
 function App() {
